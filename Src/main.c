@@ -166,7 +166,7 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-//案件中断回调
+//按键中断回调
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if(GPIO_Pin == ch395_0.INT_PIN)
